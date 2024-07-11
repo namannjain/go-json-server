@@ -8,36 +8,38 @@ Instead you can clone it or simply copy the code as it's only in one file main.g
 
 Create a `db.json` file with your desired data
 
-{
-  "posts": [
-    { 
-      "id": "1", 
-      "title": "json-server", 
-      "author": "namannjain" 
+
+    {
+      "posts": [
+        { 
+          "id": "1", 
+          "title": "json-server", 
+          "author": "namannjain" 
+        }
+      ],
+      "hobbies": [
+        "football", "singing", "games", "gym", "go ofc"
+      ],
+      "users": [
+        {
+          "id": "qwert",
+          "name": "christ"
+        },
+        {
+          "id": "tyui",
+          "name": "jain"
+        },
+        {
+          "id": "dfg",
+          "name": "sikh"
+        },
+        {
+          "id": "dfghjm",
+          "name": "hindu"
+        }
+      ]
     }
-  ],
-  "hobbies": [
-    "football", "singing", "games", "gym", "go ofc"
-  ],
-  "users": [
-    {
-      "id": "qwert",
-      "name": "christ"
-    },
-    {
-      "id": "tyui",
-      "name": "jain"
-    },
-    {
-      "id": "dfg",
-      "name": "sikh"
-    },
-    {
-      "id": "dfghjm",
-      "name": "hindu"
-    }
-  ]
-}
+    
 
 Start JSON Server
 
